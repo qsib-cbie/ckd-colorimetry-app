@@ -1,0 +1,903 @@
+{
+ "id": "cb74b1232d37532196b8555c46269154",
+ "revision": 13,
+ "created_at": "2026-10-19T04:24:25.037339+00:00",
+ "updated_at": "2026-10-19T04:24:25.348372+00:00",
+ "source": {
+  "filename": "_NOT_ACTUAL_TEST.dng",
+  "file": "original/_NOT_ACTUAL_TEST.dng",
+  "sha256": "fcf46e2cf5b13d04a8a2800d8da214350ade0287742bd189916a4986dc8dc9b5",
+  "bytes": 893900,
+  "width": 792,
+  "height": 752
+ },
+ "draft": {
+  "title": "dng_flower_auto",
+  "mode": "flower_9",
+  "white_balance": [
+   {
+    "x": 600.0,
+    "y": 300.0
+   },
+   {
+    "x": 620.0,
+    "y": 300.0
+   },
+   {
+    "x": 620.0,
+    "y": 320.0
+   },
+   {
+    "x": 600.0,
+    "y": 320.0
+   }
+  ],
+  "corners": [
+   {
+    "x": 270.0,
+    "y": 225.0
+   },
+   {
+    "x": 518.0,
+    "y": 225.0
+   },
+   {
+    "x": 518.0,
+    "y": 473.0
+   },
+   {
+    "x": 270.0,
+    "y": 473.0
+   }
+  ],
+  "manual_patches": [],
+  "rois": [
+   {
+    "id": 1,
+    "label": "ROI 1",
+    "points": [
+     {
+      "x": 490.0,
+      "y": 150.0
+     },
+     {
+      "x": 510.0,
+      "y": 150.0
+     },
+     {
+      "x": 510.0,
+      "y": 170.0
+     },
+     {
+      "x": 490.0,
+      "y": 170.0
+     }
+    ]
+   },
+   {
+    "id": 2,
+    "label": "ROI 2",
+    "points": [
+     {
+      "x": 158.0,
+      "y": 337.0
+     },
+     {
+      "x": 178.0,
+      "y": 337.0
+     },
+     {
+      "x": 178.0,
+      "y": 357.0
+     },
+     {
+      "x": 158.0,
+      "y": 357.0
+     }
+    ]
+   },
+   {
+    "id": 3,
+    "label": "ROI 3",
+    "points": [
+     {
+      "x": 493.0,
+      "y": 528.0
+     },
+     {
+      "x": 513.0,
+      "y": 528.0
+     },
+     {
+      "x": 513.0,
+      "y": 548.0
+     },
+     {
+      "x": 493.0,
+      "y": 548.0
+     }
+    ]
+   }
+  ],
+  "reservoirs": [
+   {
+    "id": 1,
+    "analyte": "ph",
+    "custom_name": "",
+    "condition": "",
+    "replicate": "",
+    "roi_ids": [
+     1
+    ],
+    "review": "needs_review",
+    "reason": ""
+   },
+   {
+    "id": 2,
+    "analyte": "urea",
+    "custom_name": "",
+    "condition": "",
+    "replicate": "",
+    "roi_ids": [
+     2
+    ],
+    "review": "needs_review",
+    "reason": ""
+   },
+   {
+    "id": 3,
+    "analyte": "creatinine",
+    "custom_name": "",
+    "condition": "",
+    "replicate": "",
+    "roi_ids": [
+     3
+    ],
+    "review": "needs_review",
+    "reason": ""
+   },
+   {
+    "id": 4,
+    "analyte": null,
+    "custom_name": "",
+    "condition": "",
+    "replicate": "",
+    "roi_ids": [],
+    "review": "needs_review",
+    "reason": ""
+   },
+   {
+    "id": 5,
+    "analyte": null,
+    "custom_name": "",
+    "condition": "",
+    "replicate": "",
+    "roi_ids": [],
+    "review": "needs_review",
+    "reason": ""
+   },
+   {
+    "id": 6,
+    "analyte": null,
+    "custom_name": "",
+    "condition": "",
+    "replicate": "",
+    "roi_ids": [],
+    "review": "needs_review",
+    "reason": ""
+   }
+  ],
+  "age": 50.0,
+  "sex": "female",
+  "urea_ph_model": null,
+  "urea_calibration": "lab",
+  "classifier_model": "full"
+ },
+ "render": {
+  "camera_whitebalance": [
+   1.0,
+   1.0,
+   1.0,
+   0.0
+  ],
+  "white_balance": null,
+  "brightness": 1.0,
+  "width": 792,
+  "height": 752,
+  "demosaic": "VNG",
+  "output_color": "raw",
+  "bits": 8,
+  "auto_bright": false,
+  "array": ".cache/r2-render.npy",
+  "preview": ".cache/r2-render.png",
+  "rgba8888_sha256": "08aff68c01de9a3ff892e79cd99067c65dd35ce3c380bd2c40c2583a2647c785"
+ },
+ "white_balance": {
+  "camera_whitebalance": [
+   1.0,
+   1.0,
+   1.0,
+   0.0
+  ],
+  "white_balance": [
+   1.2311497615380353,
+   1.1319487034105502,
+   1.096574527210925,
+   0.0
+  ],
+  "brightness": 0.6079008950482128,
+  "width": 792,
+  "height": 752,
+  "demosaic": "VNG",
+  "output_color": "raw",
+  "bits": 8,
+  "auto_bright": false,
+  "first_pass_white_balance": [
+   1.239094208657732,
+   1.1385595632669774,
+   1.1025888183253205,
+   0.0
+  ],
+  "first_pass_mean_rgb": [
+   230.93424036281178,
+   230.8639455782313,
+   230.8231292517007
+  ],
+  "array": ".cache/r6-white_balance.npy",
+  "preview": ".cache/r6-white_balance.png",
+  "rgba8888_sha256": "9e7a66e3fd1cfd1aca9c0ed821db1c9ed2c99ee10dcb29fbaed3902d2ef35927"
+ },
+ "calibration": {
+  "coefficients": [
+   [
+    1.2709533347804667,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.763395179525441,
+    0.030153732263769235
+   ],
+   [
+    0.0,
+    0.3452915512052527,
+    1.5221353905147155
+   ],
+   [
+    -9.913561533390812,
+    -0.5282956905188134,
+    8.487120480605201
+   ]
+  ],
+  "rmse": 5.762026370205668,
+  "delta_e": [
+   12.80436950607348,
+   9.644562728955997,
+   12.210104697734394,
+   5.373988692901139,
+   2.973153997317659,
+   13.934209414348329,
+   8.536719926534747,
+   4.575080627260208,
+   12.83280665438881
+  ],
+  "measured_lab": [
+   [
+    34.35624973579333,
+    21.36848363319295,
+    -20.98550818836109
+   ],
+   [
+    75.48846271430881,
+    -0.0019134779451479567,
+    0.12698957701662295
+   ],
+   [
+    51.27923241888098,
+    0.3790666136880838,
+    0.3381084055946615
+   ],
+   [
+    49.52802325680547,
+    23.041814556478524,
+    -1.1517446074828852
+   ],
+   [
+    67.90392506401594,
+    -7.614618530944417,
+    42.935289640153854
+   ],
+   [
+    31.70208135758557,
+    6.4696502493548635,
+    -38.6069351282052
+   ],
+   [
+    57.050520406109,
+    7.026447645129247,
+    25.164342671787722
+   ],
+   [
+    63.279888795892106,
+    -0.6145098032296903,
+    32.12616257902254
+   ],
+   [
+    54.770430708630926,
+    -17.982443859745622,
+    5.9807771271519155
+   ]
+  ],
+  "reference_lab": [
+   [
+    35.0145,
+    17.200719999999997,
+    -21.85427
+   ],
+   [
+    89.36465,
+    -3.25804,
+    0.06553000000000031
+   ],
+   [
+    52.2656,
+    -2.4768399999999997,
+    -2.50406
+   ],
+   [
+    52.10695,
+    39.855520000000006,
+    12.720070000000003
+   ],
+   [
+    78.184,
+    -0.04644000000000004,
+    71.42461
+   ],
+   [
+    33.56995,
+    11.02056,
+    -48.4988
+   ],
+   [
+    62.260549999999995,
+    28.736439999999998,
+    49.4035
+   ],
+   [
+    69.59185,
+    13.468319999999999,
+    59.414770000000004
+   ],
+   [
+    55.2883,
+    -36.840959999999995,
+    27.087670000000006
+   ]
+  ],
+  "orientation": "upright",
+  "sample_order": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "confidence": 11.792727539458152,
+  "patches": [
+   [
+    {
+     "x": 344.4,
+     "y": 276.6028773745457
+    },
+    {
+     "x": 367.19712262545426,
+     "y": 299.4
+    },
+    {
+     "x": 344.4,
+     "y": 322.19712262545426
+    },
+    {
+     "x": 321.6028773745457,
+     "y": 299.40000000000003
+    }
+   ],
+   [
+    {
+     "x": 377.88,
+     "y": 253.51999999999998
+    },
+    {
+     "x": 410.12,
+     "y": 253.51999999999998
+    },
+    {
+     "x": 410.12,
+     "y": 285.76
+    },
+    {
+     "x": 377.88,
+     "y": 285.76
+    }
+   ],
+   [
+    {
+     "x": 443.5999999999999,
+     "y": 276.6028773745457
+    },
+    {
+     "x": 466.3971226254542,
+     "y": 299.4
+    },
+    {
+     "x": 443.59999999999997,
+     "y": 322.1971226254543
+    },
+    {
+     "x": 420.8028773745457,
+     "y": 299.4
+    }
+   ],
+   [
+    {
+     "x": 298.52,
+     "y": 332.88
+    },
+    {
+     "x": 330.76,
+     "y": 332.88
+    },
+    {
+     "x": 330.76,
+     "y": 365.12
+    },
+    {
+     "x": 298.52,
+     "y": 365.12
+    }
+   ],
+   [
+    {
+     "x": 375.3999999999999,
+     "y": 330.4
+    },
+    {
+     "x": 412.59999999999997,
+     "y": 330.4
+    },
+    {
+     "x": 412.59999999999997,
+     "y": 367.6
+    },
+    {
+     "x": 375.4,
+     "y": 367.59999999999997
+    }
+   ],
+   [
+    {
+     "x": 457.24,
+     "y": 332.88
+    },
+    {
+     "x": 489.48,
+     "y": 332.88
+    },
+    {
+     "x": 489.48,
+     "y": 365.12
+    },
+    {
+     "x": 457.24,
+     "y": 365.12
+    }
+   ],
+   [
+    {
+     "x": 344.4,
+     "y": 375.8028773745457
+    },
+    {
+     "x": 367.1971226254543,
+     "y": 398.6
+    },
+    {
+     "x": 344.3999999999999,
+     "y": 421.39712262545424
+    },
+    {
+     "x": 321.6028773745457,
+     "y": 398.5999999999999
+    }
+   ],
+   [
+    {
+     "x": 377.88,
+     "y": 412.24
+    },
+    {
+     "x": 410.12,
+     "y": 412.24
+    },
+    {
+     "x": 410.12,
+     "y": 444.48
+    },
+    {
+     "x": 377.88,
+     "y": 444.4799999999999
+    }
+   ],
+   [
+    {
+     "x": 443.6,
+     "y": 375.8028773745457
+    },
+    {
+     "x": 466.39712262545424,
+     "y": 398.6
+    },
+    {
+     "x": 443.5999999999999,
+     "y": 421.39712262545424
+    },
+    {
+     "x": 420.8028773745457,
+     "y": 398.6
+    }
+   ]
+  ],
+  "mode": "flower_9",
+  "reference_version": "flower9_printed_lab_regression_2026_07_21"
+ },
+ "results": {
+  "schema_name": "ckd_results",
+  "schema_version": 1,
+  "rois": [
+   {
+    "id": 1,
+    "label": "ROI 1",
+    "median": [
+     75.43715867866858,
+     -0.3503775528936326,
+     -0.11901303094630222
+    ],
+    "mean": [
+     75.48739989854818,
+     -0.21391766148696195,
+     -0.10458594972456024
+    ],
+    "standard_deviation": [
+     0.232974596327003,
+     0.2179618667459877,
+     0.2002812780933243
+    ],
+    "pixel_count": 441,
+    "calibrated_median": [
+     85.96354685562625,
+     -1.1872439723744528,
+     8.295401343348223
+    ],
+    "calibrated_mean": [
+     86.02740110157566,
+     -0.9416297084149452,
+     8.321476089287886
+    ]
+   },
+   {
+    "id": 2,
+    "label": "ROI 2",
+    "median": [
+     77.34033035450727,
+     -0.0019753854400561544,
+     0.003744412653428064
+    ],
+    "mean": [
+     77.2962808472404,
+     -0.07078022308468937,
+     -0.04108305553475781
+    ],
+    "standard_deviation": [
+     0.29744230718600284,
+     0.19003699662786216,
+     0.19913382515886252
+    ],
+    "pixel_count": 441,
+    "calibrated_median": [
+     88.38238924369315,
+     -0.5304861616280584,
+     8.492760418377998
+    ],
+    "calibrated_mean": [
+     88.3264043755369,
+     -0.6672948266859381,
+     8.422452219928799
+    ]
+   },
+   {
+    "id": 3,
+    "label": "ROI 3",
+    "median": [
+     76.24609054741438,
+     -0.5346443266688872,
+     0.3852378279715518
+    ],
+    "mean": [
+     76.23773734193158,
+     -0.3171260227366347,
+     0.2646700801776938
+    ],
+    "standard_deviation": [
+     0.32087981374447616,
+     0.23932445125445279,
+     0.2094585176693153
+    ],
+    "pixel_count": 441,
+    "calibrated_median": [
+     86.9916615118189,
+     -1.338065551724115,
+     9.057383090443002
+    ],
+    "calibrated_mean": [
+     86.98104497745445,
+     -0.9961258477724959,
+     8.880421643270562
+    ]
+   }
+  ],
+  "reservoirs": [
+   {
+    "id": 1,
+    "analyte": "ph",
+    "custom_name": "",
+    "condition": "",
+    "replicate": "",
+    "roi_ids": [
+     1
+    ],
+    "review": "needs_review",
+    "reason": "",
+    "value": 6.332553814792239,
+    "calculation_status": "valid",
+    "warnings": [],
+    "urea_ph_model": null,
+    "unit": "pH",
+    "equation_version": "ph_quadratic_screenshot_rounded_v1",
+    "average_lab": [
+     85.96354685562625,
+     -1.1872439723744528,
+     8.295401343348223
+    ],
+    "review_status": "automatically_included",
+    "uncertainty": {
+     "n_rois": 1,
+     "roi_sd": null,
+     "roi_min": 6.332553814792239,
+     "roi_max": 6.332553814792239,
+     "sd": 0.006322809212947256,
+     "sd_basis": "pixel",
+     "rois": [
+      {
+       "roi_id": 1,
+       "value": 6.332553814792239,
+       "pixel_low": 6.326222570842805,
+       "pixel_high": 6.338868189268699,
+       "pixel_sd": 0.006322809212947256
+      }
+     ]
+    }
+   },
+   {
+    "id": 2,
+    "analyte": "urea",
+    "custom_name": "",
+    "condition": "",
+    "replicate": "",
+    "roi_ids": [
+     2
+    ],
+    "review": "needs_review",
+    "reason": "",
+    "value": 76.26101222486676,
+    "calculation_status": "valid",
+    "warnings": [],
+    "urea_ph_model": "pH_6.5",
+    "unit": "mM",
+    "equation_version": "urea_ph_specific_screenshot_rounded_v1:pH_6.5",
+    "average_lab": [
+     88.38238924369315,
+     -0.5304861616280584,
+     8.492760418377998
+    ],
+    "review_status": "automatically_included",
+    "uncertainty": {
+     "n_rois": 1,
+     "roi_sd": null,
+     "roi_min": 76.26101222486676,
+     "roi_max": 76.26101222486676,
+     "sd": 0.5114795617243004,
+     "sd_basis": "pixel",
+     "rois": [
+      {
+       "roi_id": 2,
+       "value": 76.26101222486676,
+       "pixel_low": 75.74953266314246,
+       "pixel_high": 76.77249178659106,
+       "pixel_sd": 0.5114795617243004
+      }
+     ]
+    }
+   },
+   {
+    "id": 3,
+    "analyte": "creatinine",
+    "custom_name": "",
+    "condition": "",
+    "replicate": "",
+    "roi_ids": [
+     3
+    ],
+    "review": "needs_review",
+    "reason": "",
+    "value": 1.3356991565037104,
+    "calculation_status": "valid",
+    "warnings": [],
+    "urea_ph_model": null,
+    "unit": "uM",
+    "equation_version": "creatinine_inverse_screenshot_rounded_v1",
+    "average_lab": [
+     86.9916615118189,
+     -1.338065551724115,
+     9.057383090443002
+    ],
+    "review_status": "automatically_included",
+    "uncertainty": {
+     "n_rois": 1,
+     "roi_sd": null,
+     "roi_min": 1.3356991565037104,
+     "roi_max": 1.3356991565037104,
+     "sd": 0.5826043524309202,
+     "sd_basis": "pixel",
+     "rois": [
+      {
+       "roi_id": 3,
+       "value": 1.3356991565037104,
+       "pixel_low": 0.754214873541968,
+       "pixel_high": 1.9194235784038085,
+       "pixel_sd": 0.5826043524309202
+      }
+     ]
+    }
+   }
+  ],
+  "summaries": {
+   "ph": {
+    "value": 6.332553814792239,
+    "sd": 0.006322809212947256,
+    "sd_basis": "pixel",
+    "unit": "pH",
+    "included_ids": [
+     1
+    ],
+    "values": [
+     {
+      "reservoir_id": 1,
+      "value": 6.332553814792239,
+      "condition": "",
+      "replicate": ""
+     }
+    ],
+    "min": 6.332553814792239,
+    "max": 6.332553814792239,
+    "note": "One included reservoir; no duplicate redundancy."
+   },
+   "urea": {
+    "value": 76.26101222486676,
+    "sd": 0.5114795617243004,
+    "sd_basis": "pixel",
+    "unit": "mM",
+    "included_ids": [
+     2
+    ],
+    "values": [
+     {
+      "reservoir_id": 2,
+      "value": 76.26101222486676,
+      "condition": "",
+      "replicate": ""
+     }
+    ],
+    "min": 76.26101222486676,
+    "max": 76.26101222486676,
+    "note": "One included reservoir; no duplicate redundancy."
+   },
+   "creatinine": {
+    "value": 1.3356991565037104,
+    "sd": 0.5826043524309202,
+    "sd_basis": "pixel",
+    "unit": "uM",
+    "included_ids": [
+     3
+    ],
+    "values": [
+     {
+      "reservoir_id": 3,
+      "value": 1.3356991565037104,
+      "condition": "",
+      "replicate": ""
+     }
+    ],
+    "min": 1.3356991565037104,
+    "max": 1.3356991565037104,
+    "note": "One included reservoir; no duplicate redundancy."
+   }
+  },
+  "ph_ready_for_urea": true,
+  "outside_calibration": [],
+  "urea_calibration": "lab",
+  "urea_ph_model": {
+   "source": "measured",
+   "selected": "pH_6.5",
+   "nearest": "pH_6.5"
+  },
+  "prediction": {
+   "status": "complete",
+   "probability": 0.9999994883415075,
+   "threshold": 0.305,
+   "classification": "Predicted G3+",
+   "urea_mM": 76.26101222486676,
+   "creatinine_uM": 1.3356991565037104,
+   "age_years": 50.0,
+   "sex": "female",
+   "equation_version": "g3_logistic_collaborator_v1",
+   "model": "full",
+   "model_label": "Urea + creatinine + age + sex",
+   "model_source": "manual",
+   "available_models": [
+    "full",
+    "creatinine",
+    "urea"
+   ],
+   "auc": null
+  },
+  "versions": {
+   "app": "2.1.0",
+   "engine": "0.1.1",
+   "configuration": "ckd_research_2026_10_14",
+   "flower_reference": "flower9_printed_lab_regression_2026_07_21",
+   "python": "3.12.1",
+   "rawpy": "0.27.0",
+   "libraw": "0.22.1",
+   "numpy": "2.4.6",
+   "scikit_image": "0.26.0"
+  },
+  "calculated_at": "2026-10-19T04:24:25.343018+00:00",
+  "review_ranges": {
+   "ph": [
+    6.0,
+    7.0
+   ],
+   "urea": [
+    0.0,
+    500.0
+   ],
+   "creatinine": [
+    0.0,
+    200.0
+   ]
+  },
+  "scientific_status": "research_configuration_pending_validation"
+ },
+ "export": null,
+ "job": null,
+ "analysis_id": "17256c7c-16ea-4c45-b628-79d7d398b983",
+ "schema_name": "ckd_project",
+ "schema_version": 1,
+ "saved_with": "2.1.0"
+}

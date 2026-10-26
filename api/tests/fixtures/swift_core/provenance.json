@@ -1,0 +1,22 @@
+{
+  "qdaq_commit": "f94e4a7d0255b6108f902a1cae66ca3a65f42a55",
+  "sources": {
+    "QDAQ/Views/Analysis/CKDSweat/CKDSweatAnalysisView.swift": "ea652fa162ded850f29992945958f3078a49bf7707e6388bead2c03b1c007d45",
+    "QDAQ/Models/Analysis.swift": "43444e10b22a583c0bcf2da37587ee8a70b8753c6dc7f06e0387a8206429b657",
+    "QDAQ/Models/Analysis/AnalysisConfiguration.swift": "fe769c943b3e5a8f0c3689b55dc46f89ee966368b70bf72e8f80886f535aba5d",
+    "QDAQ/Views/Analysis/CKDSweat/CKDConcentrationPipeline.swift": "58aa91b5cd2f3e7a5cab731fcebc9c5b2094796e374d6bc58280a8c5cc650966",
+    "QDAQ/Views/Analysis/CKDSweat/CKDCalibrationMarker.swift": "c861764042844d2becff7ff6e029d22217dd641d1a1455b20e6ac50bc073193f",
+    "QDAQ/Views/Analysis/CKDSweat/CKDReservoirModels.swift": "2bad1bb3101f09bceb97fa4ca2f34bdcd1c376869be61425a9697a90b5035c74"
+  },
+  "extracted_core_sha256": "9d6d04d9bda4f502ff7f489b81f200690b39af614299a5825e334a78318c6c54",
+  "harness_sha256": "afb5cb5ecd6d45fa6ef8f42321e33e7e6eb8d3e578c6d02574cf9afd515df2cb",
+  "generator_sha256": "721334700b65da70cd39bf262a724a77c0555f6a73339c904bc8f50d197b92ab",
+  "swift_version": "swift-driver version: 1.167 Apple Swift version 6.4 (swiftlang-6.4.0.20.104 clang-2100.3.20.102)\nTarget: arm64-apple-macosx27.0.0",
+  "rawpy_version": "0.27.0",
+  "libraw_version": [
+    0,
+    22,
+    1
+  ],
+  "execution": "QDAQ numerical source on macOS, not an iOS app or device run"
+}

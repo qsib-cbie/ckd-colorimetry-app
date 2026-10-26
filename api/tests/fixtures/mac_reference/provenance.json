@@ -1,0 +1,17 @@
+{
+ "app_version": "2.1.0",
+ "configuration": "ckd_research_2026_10_14",
+ "engine_sha256": {
+  "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "desktop.py": "fb042b09e739bdd773b89572b173417cabd0cb294bc4a1a67a6d6986e5342d25",
+  "local.py": "ce43ffccb5fdc4dfc776b218f615e03a65650f27422ced85abf9f1f8be8d1f73",
+  "models.py": "6ac22fcc69ed93d28e4fd92d96412c13c1e3b1371467b8e0eb6d596d537e0fe0",
+  "importer.py": "56e3a4e85309856200b44bd44fa5cbe08177005fdcf97a2422ff62493b83462a",
+  "store.py": "ea06cb4bb2b20437a7867a9ae18fb3eada75ba0e5eb7978b5b6d282bb7230a12",
+  "utils.py": "3173ad7f785c2d4ca75d862e9199be7c359b040702391c472c27d9a57977cc08",
+  "__main__.py": "bbbcba1885da6d43c93d0870ee2ebed38d515124031038e11af8e1f090c8bdb3",
+  "service.py": "9a7461227c57fd684257175223bb3273d3686c0dd0fa3874777fd0a5f9155c8c"
+ },
+ "generator_sha256": "3d5582ce3b9ee49fa3cffd2330d16706359ba313808b200f6957ec99d0114a65",
+ "execution": "Mac LocalAnalysisService render, white balance, calibrate and analyze on the RAW fixtures"
+}

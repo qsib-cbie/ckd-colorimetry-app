@@ -1,0 +1,10 @@
+{
+ "app_version": "2.1.0",
+ "configuration": "ckd_research_2026_10_14",
+ "engine_utils_sha256": "3173ad7f785c2d4ca75d862e9199be7c359b040702391c472c27d9a57977cc08",
+ "engine_models_sha256": "6ac22fcc69ed93d28e4fd92d96412c13c1e3b1371467b8e0eb6d596d537e0fe0",
+ "generator_sha256": "b20629df6ac2b3899a4948003f6ccc1ca767121efb67e207934c765459530a26",
+ "python": "3.12.1",
+ "numpy": "2.4.6",
+ "execution": "Mac engine concentration_results and export_tables on synthetic ROI measurements"
+}

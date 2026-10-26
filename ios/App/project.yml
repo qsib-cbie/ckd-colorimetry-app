@@ -1,0 +1,93 @@
+name: CKDColorimetry
+options:
+  bundleIdPrefix: edu.northwestern.qsib
+  deploymentTarget:
+    iOS: "18.0"
+packages:
+  CKDKit:
+    path: ../CKDKit
+targets:
+  CKDColorimetry:
+    type: application
+    platform: iOS
+    sources:
+      - Sources
+      - Resources
+    dependencies:
+      - package: CKDKit
+        product: CKDDocument
+      - package: CKDKit
+        product: CKDImage
+      - package: CKDKit
+        product: CKDResults
+    info:
+      path: Sources/Info.plist
+      properties:
+        CFBundleDisplayName: CKD Colorimetry
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        UILaunchScreen: {}
+        UIFileSharingEnabled: true
+        LSSupportsOpeningDocumentsInPlace: true
+        UIApplicationSupportsIndirectInputEvents: true
+        ITSAppUsesNonExemptEncryption: false
+        CFBundleDocumentTypes:
+          - CFBundleTypeName: RAW image
+            CFBundleTypeRole: Viewer
+            LSHandlerRank: Alternate
+            LSItemContentTypes: [com.adobe.raw-image, com.canon.cr2-raw-image]
+          - CFBundleTypeName: CKD export ZIP
+            CFBundleTypeRole: Viewer
+            LSHandlerRank: Alternate
+            LSItemContentTypes: [public.zip-archive, com.pkware.zip-archive]
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        UISupportedInterfaceOrientations~ipad: [UIInterfaceOrientationPortrait, UIInterfaceOrientationPortraitUpsideDown, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: edu.northwestern.bioelectronics.qsib.QCam
+        DEVELOPMENT_TEAM: 823S57WQK3
+        CODE_SIGN_STYLE: Automatic
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SWIFT_VERSION: "5.0"
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: NO
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": x86_64
+  CKDColorimetryUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - UITests
+    dependencies:
+      - target: CKDColorimetry
+      - package: CKDKit
+        product: CKDDocument
+    postBuildScripts:
+      - name: Bundle fixtures for device runs
+        basedOnDependencyAnalysis: false
+        script: |
+          [ "$PLATFORM_NAME" = iphoneos ] || exit 0
+          F="$SRCROOT/../../api/tests/fixtures"
+          OUT="$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/UITestFixtures"
+          mkdir -p "$OUT"
+          cp -R "$F/_NOT_ACTUAL_TEST.dng" "$F/synthetic-flower-coordinates.json" "$F/iPhoneRAW.DNG" "$F/SampleImg1.CR2" "$F/mac_reference" "$OUT/"
+          if [ -f "$SRCROOT/../../tmp/large/ProRAW48.DNG" ]; then cp "$SRCROOT/../../tmp/large/ProRAW48.DNG" "$OUT/"; fi
+    settings:
+      base:
+        DEVELOPMENT_TEAM: 823S57WQK3
+        CODE_SIGN_STYLE: Automatic
+        SWIFT_VERSION: "5.0"
+        GENERATE_INFOPLIST_FILE: YES
+        ENABLE_USER_SCRIPT_SANDBOXING: NO
+        TEST_TARGET_NAME: CKDColorimetry
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": x86_64
+schemes:
+  CKDColorimetry:
+    build:
+      targets:
+        CKDColorimetry: all
+        CKDColorimetryUITests: [test]
+    test:
+      targets:
+        - CKDColorimetryUITests

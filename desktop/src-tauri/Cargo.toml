@@ -1,0 +1,18 @@
+[package]
+name = "ckd-colorimetry-desktop"
+version = "2.2.0"
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rfd = "0.15"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json"] }
+tempfile = "3"
+
+[profile.release.build-override]
+strip = false

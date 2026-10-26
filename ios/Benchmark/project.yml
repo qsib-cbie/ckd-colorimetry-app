@@ -1,0 +1,38 @@
+name: CKDBenchmark
+options:
+  bundleIdPrefix: edu.northwestern.qsib
+  deploymentTarget:
+    iOS: "18.0"
+packages:
+  CKDKit:
+    path: ../CKDKit
+targets:
+  CKDBenchmark:
+    type: application
+    platform: iOS
+    sources:
+      - Sources
+      - path: ../../api/tests/fixtures/SampleImg1.CR2
+        buildPhase: resources
+      - path: ../../api/tests/fixtures/iPhoneRAW.DNG
+        buildPhase: resources
+    dependencies:
+      - package: CKDKit
+        product: CKDImage
+    info:
+      path: Sources/Info.plist
+      properties:
+        CFBundleDisplayName: CKD Benchmark
+        UILaunchScreen: {}
+        UIFileSharingEnabled: true
+        LSSupportsOpeningDocumentsInPlace: true
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        UISupportedInterfaceOrientations~ipad: [UIInterfaceOrientationPortrait, UIInterfaceOrientationPortraitUpsideDown, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: edu.northwestern.qsib.ckd-colorimetry.benchmark
+        DEVELOPMENT_TEAM: 823S57WQK3
+        CODE_SIGN_STYLE: Automatic
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SWIFT_VERSION: "5.0"
+        GENERATE_INFOPLIST_FILE: NO
